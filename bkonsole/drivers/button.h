@@ -3,6 +3,6 @@
 
 #include "config.h"
 void check_button(void);
-
+void check_button2(void);
 
 #endif /* INCFILE1_H_ */

@@ -35,12 +35,18 @@ void spawnFood(void) {
 
 uint8_t checkCollision(Point head) {
 	for (uint8_t i=1; i<snake_length; i++) {
-		if (head.x == snake[i].x && head.y == snake[i].y) return 1;
+		if (head.x == snake[i].x && head.y == snake[i].y)
+		{
+			blink_display();
+			buzzer_melody();
+			return 1;
+		}
 	}
 	return 0;
 }
 
 void moveSnake(void) {
+	//buzzer_melody();
 	Point newHead;
 	newHead.x = (snake[0].x + dir_x + MATRIX_SIZE) % MATRIX_SIZE;
 	newHead.y = (snake[0].y + dir_y + MATRIX_SIZE) % MATRIX_SIZE;
@@ -51,7 +57,7 @@ void moveSnake(void) {
 		snake[0].x = 3; snake[0].y = 4;
 		snake[1].x = 3; snake[1].y = 3;
 		snake[2].x = 3; snake[2].y = 2;
-		dir_x = 1; dir_y = 0;
+		dir_x = 0; dir_y = 1;
 		spawnFood();
 		return;
 	}

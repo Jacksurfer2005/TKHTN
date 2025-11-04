@@ -1,4 +1,4 @@
-app/mini_game.d app/mini_game.o: ../app/mini_game.c ../app/mini_game.h \
+drivers/lcd.d drivers/lcd.o: ../drivers/lcd.c ../drivers/lcd.h \
  ../config.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
@@ -15,11 +15,9 @@ app/mini_game.d app/mini_game.o: ../app/mini_game.c ../app/mini_game.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- ../drivers/buzzer.h ../app/display_led.h ../drivers/draw_led.h \
- ../drivers/max7219_send.h ../peripherals/spi_transmits.h
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h
 
-../app/mini_game.h:
+../drivers/lcd.h:
 
 ../config.h:
 
@@ -54,13 +52,3 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
-
-../drivers/buzzer.h:
-
-../app/display_led.h:
-
-../drivers/draw_led.h:
-
-../drivers/max7219_send.h:
-
-../peripherals/spi_transmits.h:

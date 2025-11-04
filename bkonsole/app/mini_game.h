@@ -10,6 +10,9 @@
 #define MINI_GAME_H_
 
 #include "config.h"
+#include "buzzer.h"
+#include "buzzer.h"
+#include "display_led.h"
 void spawnFood(void);
 uint8_t checkCollision(Point head);
 void moveSnake(void);

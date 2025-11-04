@@ -12,6 +12,7 @@
 #include "config.h"
 #include "draw_led.h"
 void display_led(void);
-
+void display_led2(void);
+void blink_display(void);
 
 #endif /* DISPLAY_LED_H_ */
