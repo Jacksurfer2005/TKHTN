@@ -4,6 +4,7 @@
 #include "config.h"
 #include "display_led.h"
 #include "buzzer.h"
+#include "button.h"
 void init_game(void);
 void move_pandle(void);
 void check_game_over(void);

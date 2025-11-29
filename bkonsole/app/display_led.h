@@ -14,5 +14,7 @@
 void display_led(void);
 void display_led2(void);
 void blink_display(void);
+void smiley_display(void);
+void sad_display(void);
 
 #endif /* DISPLAY_LED_H_ */

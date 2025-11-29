@@ -182,7 +182,7 @@
     <Compile Include="drivers\max_init.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="main.c">
+    <Compile Include="peripherals\main.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="peripherals\spi_init.c">

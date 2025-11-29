@@ -1,5 +1,4 @@
-app/mini_game2.d app/mini_game2.o: ../app/mini_game2.c \
- ../app/mini_game2.h ../config.h \
+peripherals/main.d peripherals/main.o: ../peripherals/main.c ../config.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -16,10 +15,11 @@ app/mini_game2.d app/mini_game2.o: ../app/mini_game2.c \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- ../app/display_led.h ../drivers/draw_led.h ../drivers/max7219_send.h \
- ../peripherals/spi_transmits.h ../drivers/buzzer.h ../drivers/button.h
-
-../app/mini_game2.h:
+ ../peripherals/spi_init.h ../drivers/max_init.h \
+ ../drivers/max7219_send.h ../peripherals/spi_transmits.h \
+ ../app/display_led.h ../drivers/draw_led.h ../app/mini_game.h \
+ ../drivers/buzzer.h ../app/display_led.h ../drivers/button.h \
+ ../drivers/lcd.h ../app/mini_game2.h
 
 ../config.h:
 
@@ -55,14 +55,26 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
 
-../app/display_led.h:
+../peripherals/spi_init.h:
 
-../drivers/draw_led.h:
+../drivers/max_init.h:
 
 ../drivers/max7219_send.h:
 
 ../peripherals/spi_transmits.h:
 
+../app/display_led.h:
+
+../drivers/draw_led.h:
+
+../app/mini_game.h:
+
 ../drivers/buzzer.h:
 
+../app/display_led.h:
+
 ../drivers/button.h:
+
+../drivers/lcd.h:
+
+../app/mini_game2.h:

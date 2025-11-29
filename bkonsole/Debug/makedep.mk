@@ -20,7 +20,7 @@ drivers\max7219_send.c
 
 drivers\max_init.c
 
-main.c
+peripherals\main.c
 
 peripherals\spi_init.c
 

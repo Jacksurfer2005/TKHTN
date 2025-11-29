@@ -8,7 +8,7 @@
 
 Point snake[MAX_LENGTH];
 uint8_t snake_length = 3;
-uint8_t dir_x = 0, dir_y = 1; // h??ng ban ??u: sang ph?i
+uint8_t dir_x = 0, dir_y = 1; // h??ng ban ??u sang ph?i
 Point food;
 
 int randomRange(int min, int max) {
@@ -26,17 +26,19 @@ void spawnFood(void) {
 		// ki?m tra có trùng v?i thân r?n không
 		for (int i = 0; i < snake_length; i++) {
 			if (snake[i].x == food.x && snake[i].y == food.y) {
-				valid = 0; // trùng ? không h?p l?
+				valid = 0; // trùng thì không h?p l?
 				break;
 			}
 		}
-	} while (!valid); // n?u trùng thì sinh l?i
+	} while (!valid); // sinh l?i n?u trùng
 }
 
 uint8_t checkCollision(Point head) {
 	for (uint8_t i=1; i<snake_length; i++) {
 		if (head.x == snake[i].x && head.y == snake[i].y)
 		{
+			sad_display();
+			_delay_ms(40);
 			blink_display();
 			buzzer_melody();
 			return 1;
