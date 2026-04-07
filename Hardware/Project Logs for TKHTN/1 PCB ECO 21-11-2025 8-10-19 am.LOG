@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R1 Old Footprint=RES_0402 New Footprint=RESAD1100W55L680D260
+Change Component Comment : Designator=R1 Old Comment=330R New Comment=MFR-25FBF52-1K
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RES_0402"; UniqueID = "\MYFFMZPA" ("\MYFFMZPA")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/MFR-25FBF52-1K/Yageo/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MFR-25FBF52-1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MFR-25FBF52-1K/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

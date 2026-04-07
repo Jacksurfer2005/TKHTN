@@ -1,0 +1,96 @@
+Added Pin To Net: NetName=LED_COL1 Pin=DS1-15
+Added Pin To Net: NetName=LED_COL1 Pin=U2-14
+Added Net: Name=LED_COL1
+Added Pin To Net: NetName=LED_COL2 Pin=DS1-11
+Added Pin To Net: NetName=LED_COL2 Pin=U2-16
+Added Net: Name=LED_COL2
+Added Pin To Net: NetName=LED_COL3 Pin=DS1-6
+Added Pin To Net: NetName=LED_COL3 Pin=U2-20
+Added Net: Name=LED_COL3
+Added Pin To Net: NetName=LED_COL4 Pin=DS1-10
+Added Pin To Net: NetName=LED_COL4 Pin=U2-23
+Added Net: Name=LED_COL4
+Added Pin To Net: NetName=LED_COL5 Pin=DS1-4
+Added Pin To Net: NetName=LED_COL5 Pin=U2-21
+Added Net: Name=LED_COL5
+Added Pin To Net: NetName=LED_COL6 Pin=DS1-3
+Added Pin To Net: NetName=LED_COL6 Pin=U2-15
+Added Net: Name=LED_COL6
+Added Pin To Net: NetName=LED_COL7 Pin=DS1-13
+Added Pin To Net: NetName=LED_COL7 Pin=U2-17
+Added Net: Name=LED_COL7
+Added Pin To Net: NetName=LED_COL8 Pin=DS1-16
+Added Pin To Net: NetName=LED_COL8 Pin=U2-22
+Added Net: Name=LED_COL8
+Added Pin To Net: NetName=LED_ROW1 Pin=DS1-9
+Added Pin To Net: NetName=LED_ROW1 Pin=U2-2
+Added Net: Name=LED_ROW1
+Added Pin To Net: NetName=LED_ROW2 Pin=DS1-14
+Added Pin To Net: NetName=LED_ROW2 Pin=U2-11
+Added Net: Name=LED_ROW2
+Added Pin To Net: NetName=LED_ROW3 Pin=DS1-8
+Added Pin To Net: NetName=LED_ROW3 Pin=U2-6
+Added Net: Name=LED_ROW3
+Added Pin To Net: NetName=LED_ROW4 Pin=DS1-12
+Added Pin To Net: NetName=LED_ROW4 Pin=U2-7
+Added Net: Name=LED_ROW4
+Added Pin To Net: NetName=LED_ROW5 Pin=DS1-1
+Added Pin To Net: NetName=LED_ROW5 Pin=U2-3
+Added Net: Name=LED_ROW5
+Added Pin To Net: NetName=LED_ROW6 Pin=DS1-7
+Added Pin To Net: NetName=LED_ROW6 Pin=U2-10
+Added Net: Name=LED_ROW6
+Added Pin To Net: NetName=LED_ROW7 Pin=DS1-2
+Added Pin To Net: NetName=LED_ROW7 Pin=U2-5
+Added Net: Name=LED_ROW7
+Added Pin To Net: NetName=LED_ROW8 Pin=DS1-5
+Added Pin To Net: NetName=LED_ROW8 Pin=U2-8
+Added Net: Name=LED_ROW8
+Added Pin To Net: NetName=MCU_PB1 Pin=R1-1
+Added Pin To Net: NetName=MCU_PB1 Pin=U1-15
+Added Net: Name=MCU_PB1
+Added Pin To Net: NetName=MCU_PB2 Pin=U1-16
+Added Pin To Net: NetName=MCU_PB2 Pin=U2-12
+Added Net: Name=MCU_PB2
+Added Pin To Net: NetName=MCU_PB3 Pin=U1-17
+Added Pin To Net: NetName=MCU_PB3 Pin=U2-1
+Added Net: Name=MCU_PB3
+Added Pin To Net: NetName=MCU_PB5 Pin=U1-19
+Added Pin To Net: NetName=MCU_PB5 Pin=U2-13
+Added Net: Name=MCU_PB5
+Added Pin To Net: NetName=MCU_PC0 Pin=SW2-1
+Added Pin To Net: NetName=MCU_PC0 Pin=U1-23
+Added Net: Name=MCU_PC0
+Added Pin To Net: NetName=MCU_PC1 Pin=SW1-1
+Added Pin To Net: NetName=MCU_PC1 Pin=U1-24
+Added Net: Name=MCU_PC1
+Added Pin To Net: NetName=MCU_PC2 Pin=SW3-1
+Added Pin To Net: NetName=MCU_PC2 Pin=U1-25
+Added Net: Name=MCU_PC2
+Added Pin To Net: NetName=MCU_PC3 Pin=SW4-1
+Added Pin To Net: NetName=MCU_PC3 Pin=U1-26
+Added Net: Name=MCU_PC3
+Added Pin To Net: NetName=MCU_PC6 Pin=SW5-1
+Added Pin To Net: NetName=MCU_PC6 Pin=U1-1
+Added Net: Name=MCU_PC6
+Added Pin To Net: NetName=MCU_PD0 Pin=LCD-4
+Added Pin To Net: NetName=MCU_PD0 Pin=U1-2
+Added Net: Name=MCU_PD0
+Added Pin To Net: NetName=MCU_PD1 Pin=LCD-5
+Added Pin To Net: NetName=MCU_PD1 Pin=U1-3
+Added Net: Name=MCU_PD1
+Added Pin To Net: NetName=MCU_PD2 Pin=LCD-6
+Added Pin To Net: NetName=MCU_PD2 Pin=U1-4
+Added Net: Name=MCU_PD2
+Added Pin To Net: NetName=MCU_PD4 Pin=LCD-11
+Added Pin To Net: NetName=MCU_PD4 Pin=U1-6
+Added Net: Name=MCU_PD4
+Added Pin To Net: NetName=MCU_PD5 Pin=LCD-12
+Added Pin To Net: NetName=MCU_PD5 Pin=U1-11
+Added Net: Name=MCU_PD5
+Added Pin To Net: NetName=MCU_PD6 Pin=LCD-13
+Added Pin To Net: NetName=MCU_PD6 Pin=U1-12
+Added Net: Name=MCU_PD6
+Added Pin To Net: NetName=MCU_PD7 Pin=LCD-14
+Added Pin To Net: NetName=MCU_PD7 Pin=U1-13
+Added Net: Name=MCU_PD7
