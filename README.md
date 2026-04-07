@@ -51,6 +51,7 @@ Dự án được phân chia thành các module rõ ràng để dễ dàng tham 
  ┣ 📂 Media             # Hình ảnh sản phẩm, sơ đồ khối, ảnh GIF demo
  ┣ 📂 Simulation        # File mô phỏng Proteus
  ┗ 📜 README.md         # Tài liệu tổng quan dự án
+```
 
 ### 📐 Thiết kế Mạch in (PCB Layout)
 
