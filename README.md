@@ -66,7 +66,7 @@ Quá trình thiết kế PCB được thực hiện và tối ưu hóa trên **A
 </p>
 
 <p align="center">
-  <img src="Media/pcb_thuc_te.jpg" alt="Bo mạch thực tế" width="80%">
+  <img src="Media/BKonsole_Power_Batt.jpg" alt="Bo mạch thực tế" width="80%">
 </p>
 <p align="center">
   <em>Bo mạch thực tế sau khi gia công và hàn hoàn thiện linh kiện</em>
@@ -90,13 +90,41 @@ Application / Game Logic: Xử lý khung hình (framebuffer), máy trạng thái
 </p>
 
 
+🚀 Hướng dẫn Build và Nạp Code
+Yêu cầu phần mềm
+IDE: Microchip Studio (hoặc VS Code kết hợp AVR-GCC/Make).
+
+Phần mềm nạp: AVRDUDESS hoặc Extreme Burner.
+
+Các bước thực hiện
+1. Clone repository về máy tính:
+
+  ```bash
+  git clone https://github.com/Jacksurfer2005/TKHTN.git
+```
+
+1. Mở project trong thư mục Firmware/ bằng IDE của bạn.
+
+2. Build/Compile project để xuất ra file .hex.
+
+3. Kết nối mạch nạp (USB ISP hoặc mạch tương đương) với chuẩn ICSP trên board mạch.
+
+4. Sử dụng phần mềm nạp để flash file .hex vào ATmega328P (lưu ý set đúng Fuses cho thạch anh 16MHz).
 
 
 
+### 👥 Nhóm phát triển (Lớp L04 - Nhóm 9)
 
+Dự án được thực hiện trong khuôn khổ môn học Thiết Kế Hệ Thống Nhúng (EE3003) tại Trường Đại học Bách Khoa TP.HCM.
 
+|Họ và Tên |MSSV|
+|-----: | ---------------|
+|Vũ Nhật Huy|	2311267|
+|Nguyễn Minh Thuận|	2313355|
+|Thái Đức Thiên|	2313222|
+|Đặng Minh Trí|	2313589|
 
-
+Giảng viên hướng dẫn: ThS. Nguyễn Phan Hải Phú - Bộ môn Điện tử.
 
 
 
