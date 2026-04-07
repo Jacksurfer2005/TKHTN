@@ -84,8 +84,9 @@ Application / Game Logic: Xử lý khung hình (framebuffer), máy trạng thái
 
 <p align="center">
 <img src="Media/Chart.png" alt="Algorithm Flowchart" width="60%">
+</p>
 
-
+<p align="center">
 <em>Lưu đồ thuật toán tổng quát của phần mềm</em>
 </p>
 
