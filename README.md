@@ -91,7 +91,7 @@ Application / Game Logic: Xử lý khung hình (framebuffer), máy trạng thái
 </p>
 
 
-🚀 Hướng dẫn Build và Nạp Code
+### 🚀 Hướng dẫn Build và Nạp Code
 Yêu cầu phần mềm
 IDE: Microchip Studio (hoặc VS Code kết hợp AVR-GCC/Make).
 
