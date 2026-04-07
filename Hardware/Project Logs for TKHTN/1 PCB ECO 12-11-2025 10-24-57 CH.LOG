@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=GND Pin=LCD-1
+Removed Pin From Net: NetName=VCC Pin=LCD-2
+Removed Pin From Net: NetName=GND Pin=LCD-3
+Removed Pin From Net: NetName=MCU_PD0 Pin=LCD-4
+Removed Pin From Net: NetName=MCU_PD1 Pin=LCD-5
+Removed Pin From Net: NetName=MCU_PD2 Pin=LCD-6
+Removed Pin From Net: NetName=MCU_PD4 Pin=LCD-11
+Removed Pin From Net: NetName=MCU_PD5 Pin=LCD-12
+Removed Pin From Net: NetName=MCU_PD6 Pin=LCD-13
+Removed Pin From Net: NetName=MCU_PD7 Pin=LCD-14
+Removed Member From Class: ClassName=1 Member=LCD
+Added Component: Designator=LCD?(LCD1602)
+Add component (AddParameter): Name = "CHIP"; Value = "HD44780"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "67HZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NCC"; Value = "NSHOP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten"; Value = "Màn hình LCD 1602 Xanh Lá"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LCD?-1
+Added Pin To Net: NetName=VCC Pin=LCD?-2
+Added Pin To Net: NetName=GND Pin=LCD?-3
+Added Pin To Net: NetName=MCU_PD0 Pin=LCD?-4
+Added Pin To Net: NetName=MCU_PD1 Pin=LCD?-5
+Added Pin To Net: NetName=MCU_PD2 Pin=LCD?-6
+Added Pin To Net: NetName=MCU_PD4 Pin=LCD?-11
+Added Pin To Net: NetName=MCU_PD5 Pin=LCD?-12
+Added Pin To Net: NetName=MCU_PD6 Pin=LCD?-13
+Added Pin To Net: NetName=MCU_PD7 Pin=LCD?-14
+Added Pin To Net: NetName=NetLCD?_15 Pin=LCD?-15
+Added Pin To Net: NetName=NetLCD?_15 Pin=VR1-2
+Added Net: Name=NetLCD?_15
+Added Member To Class: ClassName=1 Member=Component LCD? LCD1602 XL
