@@ -12,9 +12,8 @@ This project was done under the supervisor Nguyen Phan Hai Phu in coourse EE3003
 **BKONSOLE** là một thiết bị giải trí cầm tay tự thiết kế, xoay quanh nền tảng vi điều khiển ATmega328P. Dự án là sự kết hợp toàn diện giữa thiết kế phần cứng (Schematic & PCB), lập trình nhúng thời gian thực (Bare-metal C) và tối ưu hóa hệ thống năng lượng, mang lại trải nghiệm chơi game mượt mà trên ma trận LED.
 
 <p align="center">
-  <img src="Media/san_pham_thuc_te.jpg" alt="BKONSOLE Thực Tế" width="80%">
+  <img src="Media/Bkonsole Prototype.jpg" alt="BKONSOLE Thực Tế" width="80%">
   <br>
-  <em>(Thay đường dẫn bằng ảnh hoặc ảnh GIF quay cảnh đang chơi game thực tế)</em>
 </p>
 
 ## 📑 Mục lục
