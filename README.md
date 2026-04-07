@@ -52,3 +52,21 @@ Dự án được phân chia thành các module rõ ràng để dễ dàng tham 
  ┣ 📂 Simulation        # File mô phỏng Proteus
  ┗ 📜 README.md         # Tài liệu tổng quan dự án
 
+### 📐 Thiết kế Mạch in (PCB Layout)
+
+Quá trình thiết kế PCB được thực hiện và tối ưu hóa trên **Altium Designer**. Mạch được thiết kế 2 lớp (2 Layers) với các tiêu chuẩn cụ thể về độ rộng đường mạch (track width) cho đường nguồn và tín hiệu, đồng thời tối ưu hóa vị trí đặt linh kiện để giảm thiểu nhiễu cho tín hiệu SPI tốc độ cao.
+
+<p align="center">
+  <img src="Media/pcb_2d_routing.jpg" alt="PCB 2D Routing" width="45%">
+  <img src="Media/pcb_3d_render.jpg" alt="PCB 3D Render" width="45%">
+</p>
+<p align="center">
+  <em>Bản vẽ Layout 2D (trái) và Render 3D (phải) từ Altium Designer</em>
+</p>
+
+<p align="center">
+  <img src="Media/pcb_thuc_te.jpg" alt="Bo mạch thực tế" width="80%">
+</p>
+<p align="center">
+  <em>Bo mạch thực tế sau khi gia công và hàn hoàn thiện linh kiện</em>
+</p>
