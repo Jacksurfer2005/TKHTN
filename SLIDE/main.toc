@@ -1,6 +1,0 @@
-\babel@toc {vietnamese}{}\relax 
-\beamer@sectionintoc {1}{GIỚI THIỆU}{4}{0}{1}
-\beamer@sectionintoc {2}{THÔNG SỐ LINH KIỆN}{6}{0}{2}
-\beamer@sectionintoc {3}{PHẦN CỨNG}{15}{0}{3}
-\beamer@sectionintoc {4}{PHẦN MỀM}{25}{0}{4}
-\beamer@sectionintoc {5}{KẾT QUẢ THỰC HIỆN}{29}{0}{5}
