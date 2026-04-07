@@ -1,0 +1,222 @@
+\documentclass[12pt, a4paper, oneside]{article}
+\usepackage[utf8]{vietnam}
+\usepackage[utf8]{inputenc}
+\usepackage[margin = 1.5cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{indentfirst,enumitem}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{scrextend}
+\usepackage{comment}
+\usepackage{soul}
+\usepackage{tipa}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{algorithm2e}
+\usepackage{float}
+\usepackage[most]{tcolorbox}
+\usepackage{pdfpages}
+\usepackage{import}
+\graphicspath{ {figures/} }
+
+\captionsetup[figure]{labelfont=bf, textfont=it, font=small}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={TKHTN},
+    pdfpagemode=FullScreen,
+}
+
+%\changefontsizes{13pt}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+
+\pagestyle{fancy}
+\fancyhead[r]{\textit{Bộ môn Điện tử}}
+%\fancyhead[c]{\bfseries DSP}
+\fancyhead[l]{\textit{Thiết kế hệ thống nhúng}}
+\renewcommand{\headrulewidth}{0.2pt}
+\setlength{\headheight}{10pt}
+
+
+\def\mathrlap{\mathpalette\mathrlapinternal} 
+\def\mathclap{\mathpalette\mathclapinternal}
+\def\mathllapinternal#1#2{\llap{$\mathsurround=0pt#1{#2}$}}
+\def\mathrlapinternal#1#2{\rlap{$\mathsurround=0pt#1{#2}$}}
+
+%CHÈN ẢNH
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usetikzlibrary[patterns]
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{blue},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+\begin{document}
+\begin{titlepage}
+%\SetWatermarkText{\includegraphics[width = 0.97\paperwidth,
+%height = 0.97\paperheight]{bia.png}}
+%\SetWatermarkAngle{0} 
+%\SetWatermarkText{\includegraphics[scale=1]{hust.png}}
+%\SetWatermarkAngle{0} 
+\begin{tikzpicture}[remember picture,overlay,inner sep=0,outer sep=0]
+     \draw[blue!70!black,line width=4pt] ([xshift=-1.5cm,yshift=-2cm]current page.north east) coordinate (A)--([xshift=1.5cm,yshift=-2cm]current page.north west) coordinate(B)--([xshift=1.5cm,yshift=2cm]current page.south west) coordinate (C)--([xshift=-1.5cm,yshift=2cm]current page.south east) coordinate(D)--cycle;
+
+     \draw ([yshift=0.5cm,xshift=-0.5cm]A)-- ([yshift=0.5cm,xshift=0.5cm]B)--
+     ([yshift=-0.5cm,xshift=0.5cm]B) --([yshift=-0.5cm,xshift=-0.5cm]B)--([yshift=0.5cm,xshift=-0.5cm]C)--([yshift=0.5cm,xshift=0.5cm]C)--([yshift=-0.5cm,xshift=0.5cm]C)-- ([yshift=-0.5cm,xshift=-0.5cm]D)--([yshift=0.5cm,xshift=-0.5cm]D)--([yshift=0.5cm,xshift=0.5cm]D)--([yshift=-0.5cm,xshift=0.5cm]A)--([yshift=-0.5cm,xshift=-0.5cm]A)--([yshift=0.5cm,xshift=-0.5cm]A);
+
+
+     \draw ([yshift=-0.3cm,xshift=0.3cm]A)-- ([yshift=-0.3cm,xshift=-0.3cm]B)--
+     ([yshift=0.3cm,xshift=-0.3cm]B) --([yshift=0.3cm,xshift=0.3cm]B)--([yshift=-0.3cm,xshift=0.3cm]C)--([yshift=-0.3cm,xshift=-0.3cm]C)--([yshift=0.3cm,xshift=-0.3cm]C)-- ([yshift=0.3cm,xshift=0.3cm]D)--([yshift=-0.3cm,xshift=0.3cm]D)--([yshift=-0.3cm,xshift=-0.3cm]D)--([yshift=0.3cm,xshift=-0.3cm]A)--([yshift=0.3cm,xshift=0.3cm]A)--([yshift=-0.3cm,xshift=0.3cm]A);
+
+   \end{tikzpicture}
+\begin{center}
+    \vspace{7pt}
+        \textbf{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH}
+    
+    \vspace{7pt}
+    \textbf{TRƯỜNG ĐẠI HỌC BÁCH KHOA}
+    
+    \vspace{7pt}
+    \textbf{KHOA ĐIỆN - ĐIỆN TỬ}
+
+    \vspace{7pt}
+    \textbf{BỘ MÔN ĐIỆN TỬ}
+\end{center}
+\vspace{10pt}
+\begin{center}
+    \includegraphics[scale=0.3]{HCMUT.png}
+    
+    \vspace{10pt}
+\end{center}
+
+\begin{center}
+    \fontsize{18pt}{17pt}\selectfont 
+    \textbf{BÀI TẬP LỚN THIẾT KẾ HỆ THỐNG NHÚNG}
+\end{center}
+\begin{center}
+    \fontsize{15pt}{17pt}\selectfont 
+    \textbf{\textrm{MÁY CHƠI GAME CẦM TAY BKONSOLE}}
+\end{center}
+
+\begin{center}
+    \vspace{15pt}
+\textbf{Lớp: L04 - NHÓM: 9}
+\end{center}
+
+\vspace{10pt}
+
+\begin{table}[h]
+\begin{tabular}{rrl}
+\hspace{5 cm} & GVHD: &Nguyễn Phan Hải Phú\\
+& SV: & Vũ Nhật Huy - 2311267\\
+& & Nguyễn Minh Thuận - 2313355 \\
+& & Thái Đức Thiên - 2313222\\
+& & Đặng Minh Trí - 2313589 \\
+\end{tabular}
+\end{table}
+\vfill
+\centerline{\bf Thành phố Hồ Chí Minh, tháng 11 năm 2025}
+
+\vspace{1cm}
+\end{titlepage}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    {\color{red}\Large{\textbf{TÓM TẮT ĐỀ TÀI}}}
+\end{center}
+
+Đề tài “Thiết kế máy chơi game cầm tay BKONSOLE” tập trung vào việc xây dựng một hệ thống nhúng hoàn chỉnh có khả năng chạy được một số trò chơi đơn giản trên nền vi điều khiển ATmega328P. Hệ thống hướng đến mục tiêu tạo ra một thiết bị giải trí nhỏ gọn, sử dụng pin, dễ thao tác, đồng thời giúp sinh viên vận dụng tổng hợp kiến thức về vi điều khiển, mạch số, hiển thị và lập trình nhúng vào một sản phẩm thực tế.
+
+Về phần cứng, đề tài nghiên cứu và lựa chọn các linh kiện chính như vi điều khiển ATmega328P, ma trận LED 8x8 điều khiển qua IC MAX7219 dùng làm màn hình hiển thị game, màn hình LCD 1602 dùng để hiển thị thông tin phụ như tên trò chơi, điểm số và trạng thái hệ thống, cùng với các nút nhấn điều khiển, còi buzzer tạo hiệu ứng âm thanh và khối nguồn dùng pin Li-Ion tích hợp mạch sạc và bộ tăng áp. Từ đó, nhóm xây dựng sơ đồ khối, sơ đồ nguyên lý và thiết kế mạch in, đồng thời mô phỏng, kiểm tra trước khi thi công mạch thực tế.
+
+Về phần mềm, đề tài hiện thực các chương trình điều khiển theo hướng mô-đun hóa, bao gồm các hàm điều khiển giao tiếp SPI, điều khiển hiển thị ma trận LED và LCD, quét nút nhấn, phát âm thanh, cùng thuật toán cho các trò chơi như “rắn săn mồi” và “pickle ball”. Hệ thống được kiểm thử trên phần cứng thực, đánh giá về khả năng hiển thị, tốc độ phản hồi và độ ổn định. Kết quả cho thấy máy chơi game hoạt động đúng yêu cầu, các trò chơi vận hành trơn tru, đáp ứng được mục tiêu ban đầu của đề tài và có thể làm nền tảng để phát triển thêm nhiều trò chơi và tính năng khác trong tương lai.
+
+\newpage
+\onehalfspacing
+\tableofcontents
+\thispagestyle{empty}
+%\newpage
+%\listoftables
+%\thispagestyle{empty}
+\newpage
+\listoffigures
+\thispagestyle{empty}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    \textbf{LỜI NÓI ĐẦU}
+\end{center}
+
+\textit{Nhóm xin gửi lời cảm ơn chân thành và sự tri ân sâu sắc đối với thầy Nguyễn Phan Hải Phú, giảng viên Bộ môn Điện tử trường Đại học Bách khoa - Đại học Quốc gia Thành phố Hồ Chí Minh, đã tạo điều kiện cho chúng em có nhiều thời gian cho môn học Thiết kế Hệ thống nhúng. Và đồng thời chúng em cũng xin chân thành cảm ơn thầy đã nhiệt tình hướng dẫn hướng dẫn giúp chúng em hoàn thành tốt bài tập lớn này.}
+
+\textit{Trong quá trình học tập, cũng như là trong quá trình làm bài báo cáo bài tập lớn, do điều kiện khó khăn khó tránh khỏi sai sót, rất mong Thầy có thể thông cảm. Đồng thời do trình độ lý luận cũng như kinh nghiệm thực tiễn còn hạn chế nên bài báo cáo không thể tránh khỏi những thiếu sót, em rất mong nhận được ý kiến đóng góp từ Thầy để em học thêm được nhiều kinh nghiệm và sẽ hoàn thành tốt những Đồ án, Luận văn tốt nghiệp trong tương lai.}
+
+\textit{Nhóm xin chân thành cảm ơn Thầy!}
+
+\textit{Chúc Thầy sức khỏe và thành đạt.}
+\newpage
+\setcounter{page}{1}
+\import{chap/}{chap0.tex}
+\newpage
+\import{chap/}{chap1.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\import{chap/}{chap2.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\import{chap/}{chap3.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\import{chap/}{chap4.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\import{chap/}{chap5.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\import{chap/}{chap6.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\import{chap/}{chap7.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
