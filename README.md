@@ -71,3 +71,33 @@ Quá trình thiết kế PCB được thực hiện và tối ưu hóa trên **A
 <p align="center">
   <em>Bo mạch thực tế sau khi gia công và hàn hoàn thiện linh kiện</em>
 </p>
+
+
+### 💻 Kiến trúc Phần mềm
+Mã nguồn được viết hoàn toàn bằng C (Bare-metal), biên dịch bằng trình dịch AVR-GCC. Cấu trúc chương trình tuân theo nguyên tắc phân lớp (Layered Architecture):
+
+Hardware Abstraction Layer (HAL): Chứa các driver giao tiếp phần cứng (SPI, GPIO, PWM).
+
+Device Drivers: Thư viện điều khiển MAX7219 và LCD1602 được viết lại để tối ưu dung lượng.
+
+Application / Game Logic: Xử lý khung hình (framebuffer), máy trạng thái (state machine) của game và thuật toán va chạm.
+
+<p align="center">
+<img src="Media/luu_do_thuat_toan.jpg" alt="Algorithm Flowchart" width="60%">
+
+
+<em>Lưu đồ thuật toán tổng quát của phần mềm</em>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
