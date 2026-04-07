@@ -17,13 +17,13 @@ This project was done under the supervisor Nguyen Phan Hai Phu in coourse EE3003
 </p>
 
 ## 📑 Mục lục
-- [Tính năng nổi bật](#-tính-năng-nổi-bật)
-- [Cấu trúc Repository](#-cấu-trúc-repository)
-- [Kiến trúc Phần cứng](#-kiến-trúc-phần-cứng)
-- [Kiến trúc Phần mềm](#-kiến-trúc-phần-mềm)
-- [Hướng dẫn Build và Nạp Code](#-hướng-dẫn-build-và-nạp-code)
-- [Nhóm phát triển](#-nhóm-phát-triển)
-
+- [Tính năng nổi bật](#tính-năng-nổi-bật)
+- [Cấu trúc Repository](#cấu-trúc-repository)
+- [Kiến trúc Phần cứng](#kiến-trúc-phần-cứng)
+  - [Thiết kế Mạch in (PCB Layout)](#thiết-kế-mạch-in-pcb-layout)
+- [Kiến trúc Phần mềm](#kiến-trúc-phần-mềm)
+- [Hướng dẫn Build và Nạp Code](#hướng-dẫn-build-và-nạp-code)
+- [Nhóm phát triển](#nhóm-phát-triển-lớp-l04---nhóm-9)
 ---
 
 ## 🌟 Tính năng nổi bật
