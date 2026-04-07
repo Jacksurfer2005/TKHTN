@@ -83,7 +83,7 @@ Device Drivers: Thư viện điều khiển MAX7219 và LCD1602 được viết 
 Application / Game Logic: Xử lý khung hình (framebuffer), máy trạng thái (state machine) của game và thuật toán va chạm.
 
 <p align="center">
-<img src="Media/Chart.jpg" alt="Algorithm Flowchart" width="60%">
+<img src="Media/Chart.png" alt="Algorithm Flowchart" width="60%">
 
 
 <em>Lưu đồ thuật toán tổng quát của phần mềm</em>
