@@ -1,4 +1,9 @@
-# TKHTN
+# Embedded System Degisn (EE3003) - Ho Chi Minh University of Technology 
+
+<p align="center">
+  <img src="Media/retouch_2026040717171687.jpg" width="120%">
+  <br>
+</p>
 
 This project was done under the supervisor Nguyen Phan Hai Phu in coourse EE3003 - Embedded System Design.
 
